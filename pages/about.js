@@ -1,15 +1,31 @@
 import { Component } from "react"
-import Menu from "../components/Menu"
+import Layout from "../components/Layout"
 
 export default class About extends Component {
     constructor(props) {
         super(props)
+
+        this.state = { 
+            pageHead:{}
+        }
     }
+
+    componentDidMount() {
+        this.setState({
+            pageHead:{
+                title:"About"
+            }
+        })
+    }
+
     render() {
-        return (<div>
+
+        return (<Layout
+            head={this.state.pageHead}
+        >
             <h1>About Page</h1>
-            <Menu></Menu>
+           
             <p> Application to view Bitcoin Price </p>
-        </div>)
+        </Layout>)
     }
 }

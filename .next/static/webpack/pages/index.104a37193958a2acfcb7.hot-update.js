@@ -11,30 +11,30 @@ webpackHotUpdate_N_E("pages/index",{
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Menu.js */ "./components/Menu.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 
 
 var _jsxFileName = "D:\\Projects\\bitzprice\\pages\\index.js",
     _this = undefined;
 
 
+var title = "Home";
 
 var Index = function Index() {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    head: {
+      "title": title
+    },
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
       children: " Welcome to BitzPrice"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 9,
       columnNumber: 9
-    }, _this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_Menu_js__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
-    }, _this)]
-  }, void 0, true, {
+    }, _this)
+  }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 4,
+    lineNumber: 6,
     columnNumber: 5
   }, _this);
 };
@@ -106,4 +106,4 @@ $RefreshReg$(_c, "Index");
 /***/ })
 
 })
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSW5kZXgiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFFQSxJQUFNQSxLQUFLLEdBQUksU0FBVEEsS0FBUztBQUFBLHNCQUNYO0FBQUEsNEJBQ0k7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsYUFESixlQUVJLHFFQUFDLDJEQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsYUFGSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsV0FEVztBQUFBLENBQWY7O0tBQU1BLEs7QUFPU0Esb0VBQWYiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvaW5kZXguMzBmNDZlOGUzZDI0MjMzMmU4N2MuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBNZW51IGZyb20gXCIuLi9jb21wb25lbnRzL01lbnUuanNcIlxyXG5cclxuY29uc3QgSW5kZXggID0gKCkgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8aDE+IFdlbGNvbWUgdG8gQml0elByaWNlPC9oMT5cclxuICAgICAgICA8TWVudT48L01lbnU+XHJcbiAgICA8L2Rpdj5cclxuKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSW5kZXgiXSwic291cmNlUm9vdCI6IiJ9
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsidGl0bGUiLCJJbmRleCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBRUEsSUFBTUEsS0FBSyxHQUFHLE1BQWQ7O0FBRUEsSUFBTUMsS0FBSyxHQUFJLFNBQVRBLEtBQVM7QUFBQSxzQkFDWCxxRUFBQywwREFBRDtBQUNJLFFBQUksRUFBRTtBQUFDLGVBQVFEO0FBQVQsS0FEVjtBQUFBLDJCQUdJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBSEo7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQURXO0FBQUEsQ0FBZjs7S0FBTUMsSztBQVFTQSxvRUFBZiIsImZpbGUiOiJzdGF0aWMvd2VicGFjay9wYWdlcy9pbmRleC4xMDRhMzcxOTM5NThhMmFjZmNiNy5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9MYXlvdXRcIlxyXG5cclxuY29uc3QgdGl0bGUgPSBcIkhvbWVcIlxyXG5cclxuY29uc3QgSW5kZXggID0gKCkgPT4gKFxyXG4gICAgPExheW91dFxyXG4gICAgICAgIGhlYWQ9e3tcInRpdGxlXCI6dGl0bGV9fVxyXG4gICAgPlxyXG4gICAgICAgIDxoMT4gV2VsY29tZSB0byBCaXR6UHJpY2U8L2gxPlxyXG4gICAgPC9MYXlvdXQ+XHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGV4Il0sInNvdXJjZVJvb3QiOiIifQ==
